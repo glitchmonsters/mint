@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+#socials {
+  z-index: 99;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 25px;
+  text-align: right;
+}
+
+#socials #logo {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 10%;
+  background-image: url(gmlogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#socials img.logo {
+  right: 0;
+}
+
+#socials a {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin: 20px;
+  color: #4f39b5 !important;
+  background-color: #a2ee0f !important;
+  font-size: 15px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: bold !important;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.video-background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
